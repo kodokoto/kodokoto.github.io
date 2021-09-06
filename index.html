@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/fullpage.css" />
+</head>
+
+<body>
+
+    <!-- <h1>Jorge Martin Albeniz</h1> -->
+    <div id="fullpage">
+
+        <div class="section" data-anchor="about">
+            <div class="main-section">
+                <div class="content">
+                    <img src="images/pfp.jpg" alt="pfp" class="profile-pic">
+                    <div class="about-text">
+                        <p class="text">
+                            My name is Jorge Martin Albeniz<br><br><br>
+        
+                            I compose music, design sounds and make all sorts of programms<br>
+        
+                            Currently studying Computer Science @ Queen Mary University
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" data-anchor="programming">
+            <div class="main-section"></div>
+
+        </div>
+
+        <div class="section" data-anchor="sound-design">
+            <div class="main-section"></div>
+
+        </div>
+
+        <div class="section" data-anchor="music">
+            <div class="main-section"></div>
+
+        </div>
+
+        <div class="section" data-anchor="contact">
+            <div class="main-section"></div>
+
+        </div>
+
+    </div>
+
+    <div id="fp-nav" class="fp-left nav-menu text">
+        <ul>
+            <li>
+                <a href='#about'>about</a>
+            </li>
+            <li>
+                <a href='#programming'>programming</a>
+            </li>
+            <li>
+                <a href='#sound-design'>sound</a>
+            </li>
+            <li>
+                <a href='#music'>music</a>
+            </li>
+            <li>
+                <a href='#contact'>contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+    ></script>
+    <script>
+        new fullpage('#fullpage', {
+            //options here
+            autoScrolling:true,
+            scrollVertically: true
+        });
+
+        //methods
+        fullpage_api.setAllowScrolling(false); 
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <nav>
+        <div class="menu">
+          <a href='#programming'>programming</a>
+          <a href='#sound design'>sound design</a>
+          <a href='#music'>music</a>
+          <a href='#about'>about</a>
+          <a href='#contact'>contact</a>
+        </div>
+    </nav> 
+    <section class='home'>
+        <p>home</p>
+      </section>
+    <section class='programming'>
+        <p>programming</p>
+      </section>
+    <section class='sound design'>
+        <p>sound design</p>
+      </section>
+    <section class='music'>
+        <p>music</p>
+      </section>
+    <section class='about'>
+        <p>about</p>
+      </section>
+    <section class='contact'>
+      </section> -->
+
+    <!-- <div class="menu">
+        <ul>
+            <li>Programming</li>
+            <li>Sound Design</li>
+            <li>Music</li>
+            <li>About me</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <!-- <section class='home'>
+        <h3>home</h3>
+      </section>
+      <section class='about'>
+        <h3>about</h3>
+      </section>
+      <section class='service'>
+        <h3>service</h3>
+      </section>
+      <section class='resume'>
+        <h3>resume</h3>
+      </section>
+      <section class='works'>
+        <h3>works</h3>
+      </section>
+      <section class='blog'>
+        <h3>blog</h3>
+      </section>
+      <section class='contact'>
+        <h3>contact</h3>
+      </section>
+      <nav>
+        <div>
+          <a href='#home'>Home</a>
+          <a href='#about'>About</a>
+          <a href='#service'>Service</a>
+          <a href='#resume'>Resume</a>
+          <a href='#works'>Works</a>
+          <a href='#blog'>Blog</a>
+          <a href='#contact'>Contact</a>
+        </div>
+      </nav> -->
+</body>

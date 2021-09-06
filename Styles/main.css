@@ -1,0 +1,57 @@
+body {
+    background-color: #DDCAB5;
+}
+
+.nav-menu {
+    margin-left: 2%;
+    width: fit-content;
+    font-size: large;
+}
+
+.nav-menu a:link, a:visited {
+    color: white;
+}
+
+.main-section {
+    position: relative;
+    display: inline;
+    /* border: red; */
+    width: 80%;
+    height: 100%;
+    left: 20%;
+}
+
+.content {
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+}
+
+.about-image {
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+
+.profile-pic {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: cover; object-position: 100% 0;
+    box-shadow: -20px 20px #E7E1D7;
+}
+
+.about-text {
+    position: relative;
+    display: block;
+    height: 500px;
+    width: auto;
+    padding-left: 40px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+}
