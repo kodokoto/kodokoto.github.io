@@ -9,8 +9,15 @@ body {
     font-size: large;
 }
 
-a:link, a:visited {
+a, a:link, a:visited {
     color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #C5B29F; */
+    color: #90785D;
 }
 
 .nav-menu ul li {
@@ -70,3 +77,20 @@ a:link, a:visited {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+/* .yellow:hover {
+    background-color: #f8cc4c;
+    
+}
+
+.green:hover {
+    background-color: #b8c43c;
+}
+
+.blue:hover {
+    background-color: #64bab7;
+    border: solid;
+    border-color: #64bab7;
+    border-radius: 3px;
+    border-width: 3px;
+} */

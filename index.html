@@ -19,15 +19,15 @@
                     <img src="images/pfp.jpg" alt="pfp" class="content-pic">
                     <div class="content-text">
                         <pre class="text">
-my name is Jorge Martin Albeniz<br><br><br>
+my name is jorge martin albeniz<br><br><br>
         
-i compose music          
+<a href="#music">i compose music</a>          
 
 
-            design sounds 
+            <a href="#programming">design sounds</a>
 
 
-    and make all sorts of programms<br>
+    <a href="#programmings">and make all sorts of programms</a><br>
         
                             
     
@@ -39,7 +39,7 @@ i compose music
 
 
 
-Currently studying Computer Science @ Queen Mary University</pre>
+currently studying computer science @ queen mary university</pre>
                         
                     </div>
                 </div>
@@ -55,24 +55,24 @@ Currently studying Computer Science @ Queen Mary University</pre>
                     <div class="content-text">
                     <p class="text">myuzu // C<br><br> 
 
-                        - a programming language focusing on being readable<br> without compromising in speed and memory safety. [WIP]<br><br><br>
+                        - a programming language focusing on being readable<br> without compromising in speed and memory safety [WIP]<br><br><br>
                         
-                        juliacore // Julia, C<br><br>
+                        juliacore // julia, C<br><br>
                         
-                        - a library that allows Julia to interact with coreaudio. [WIP]<br><br><br>
+                        - a library that allows Julia to interact with coreaudio [WIP]<br><br><br>
                         
-                        TouchDesigner // Python<br><br>
+                        TouchDesigner // python<br><br>
                         
                         - multiple projects using TouchDesigner to create audio reactive visuals<br><br><br>
                         
-                        Max/MSP // JavaScript<br><br>
+                        Max/MSP // javascript<br><br>
                         
-                        - Dynamic EQ<br>
-                        - Multiband convolution reverb [WIP]<br><br><br>
+                        - dynamic EQ<br>
+                        - multiband convolution reverb [WIP]<br><br><br>
                         
                         JUCE // C++<br><br>
                         
-                        - currently learning JUCE, making small and simple things.</p>
+                        - currently learning JUCE, making small and simple things</p>
                     </div>
                 </div>
             </div>
@@ -178,13 +178,27 @@ Guitars: 1968 Gibson Marauder, 1967 Giannini Tur.4,
       src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
     ></script>
     <script>
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling:true,
-            scrollVertically: true
-        });
+        // new fullpage('#fullpage', {
+        //     //options here
+        //     autoScrolling:true,
+        //     scrollVertically: true
+        // });
 
-        //methods
-        fullpage_api.setAllowScrolling(false); 
+        // //methods
+        // fullpage_api.setAllowScrolling(false); 
+
+
+        new fullpage('#fullpage', {
+            // anchors: ['about', 'programming', 'music', 'contact'],
+            navigationTooltips: ['fullPage', 'Open', 'Easy', 'Touch'],
+            css3: true,
+            scrollingSpeed: 1000,
+            // navigation: true,
+            slidesNavigation: true,
+            responsiveHeight: 330,
+            dragAndMove: true,
+            dragAndMoveKey: 'YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc=',
+            controlArrows: false
+        });
     </script>
 </body>
