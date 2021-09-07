@@ -32,7 +32,6 @@ a:hover {
 .main-section {
     position: relative;
     display: inline;
-    /* border: red; */
     width: 80%;
     height: 100%;
     left: 20%;
@@ -44,7 +43,12 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 70%;
+    /* width: 70%; */
+}
+
+.media-frame {
+    width: 600px;
+    height: 600px;
 }
 
 .content-pic {
@@ -57,7 +61,7 @@ a:hover {
 
 .content-text {
     display: block;
-    height: 600px;
+    height: auto;
     width: auto;
     padding-left: 40px;
 }
@@ -98,16 +102,72 @@ a:hover {
     padding-left: 30px;
 }
 
-/* @media (min-width:480px) {
-    .nav-menu {
-        position: absolute;
-        top: 20%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-} */
-
 .content-grid {
     margin: 1%;
     position: relative;
+}
+
+@media screen and (max-device-width:960px) {
+    .main-section {
+        display: inline;
+        left:10%;
+        top: 5vh;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        vertical-align: auto;
+        /* max-width: 90%; */
+    }
+    .content>div {
+        min-width: 0;
+        padding-bottom: 4vh;
+    }
+
+    .center-text {
+        position:relative;
+        top: 0%;
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        max-width: inherit;
+    }
+    .content-text {
+        padding: 0;
+        max-width: inherit;
+    }
+    .nav-menu {
+        /* display: none; */
+        margin-left: 1%;
+    }
+    .text {
+        font-size: 20px;
+        word-wrap: break-word;
+    }
+    .media-frame {
+        width: 80vw;
+        height: 80vw;
+    }
+    .content-pic {
+        width: 80vw;
+        height: 80vw;
+    }
+    .name {
+        font-size: 40px;
+        width: 100vw;
+        background-color: rgb(225,202,181);
+        margin-top: 0%;
+        padding-top: 2%;
+        padding-bottom: 1vh;
+        z-index: 100;
+        box-shadow:5px 5px 2px rgb(225,202,181);
+    }
+}
+
+@media screen and (max-device-height:800px) {
+    .name {
+        font-size: 30px;
+    }
 }
