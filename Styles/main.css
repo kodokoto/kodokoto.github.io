@@ -46,15 +46,15 @@ a:hover {
 
 .content-pic {
     position: relative;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     object-fit: cover; object-position: 100% 0;
     box-shadow: -20px 20px #E7E1D7;
 }
 
 .content-text {
     display: block;
-    height: 500px;
+    height: 600px;
     width: auto;
     padding-left: 40px;
 }
