@@ -104,7 +104,7 @@ a:hover {
 .content-grid {
 
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 30% 30%;
     grid-row: auto auto;
     column-gap: 40px;
     row-gap: 40px;
