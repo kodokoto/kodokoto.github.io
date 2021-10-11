@@ -43,7 +43,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* width: 70%; */
 }
 
 .media-frame {
@@ -103,8 +102,25 @@ a:hover {
 }
 
 .content-grid {
-    margin: 1%;
-    position: relative;
+
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-row: auto auto;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.content-grid-item {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.content-grid-item:nth-child(odd) {
+    flex: 0 0 50px;
 }
 
 @media screen and (max-device-width:960px) {
