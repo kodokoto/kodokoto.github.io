@@ -43,6 +43,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    word-wrap: break-word;
+    /* width: 80vw; */
 }
 
 .media-frame {
@@ -61,8 +63,8 @@ a:hover {
 .content-text {
     display: block;
     height: auto;
-    width: auto;
     padding-left: 40px;
+    word-wrap: break-word;
 }
 
 .text {
@@ -83,7 +85,7 @@ a:hover {
     margin: 0; 
     position: absolute;
     top: 50%;
-    width: max-content;
+    width: 35%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -141,14 +143,16 @@ a:hover {
         min-width: 0;
         padding-bottom: 4vh;
     }
-
+    
     .center-text {
         position:relative;
         top: 0%;
         -ms-transform: translateY(0%);
         transform: translateY(0%);
         max-width: inherit;
+        width: 80%;
     }
+
     .content-text {
         padding: 0;
         max-width: inherit;
